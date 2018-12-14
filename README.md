@@ -1,5 +1,5 @@
 #Monthly.js
-A jQuery based responsive calendar plugin 
+A jQuery based responsive calendar 
 
 <a href="http://kthornbloom.com/monthly" target="_blank">Live Demo</a>
 
