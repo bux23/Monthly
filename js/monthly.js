@@ -164,8 +164,8 @@ function monthly(customOptions) {
 
 		if(startTime) {
 			var endTime = self._getEventDetail(event, "endtime");
-			timeHtml = '<div><div class="monthly-list-time-start">' + formatTime(startTime) + "</div>"
-				+ (endTime ? '<div class="monthly-list-time-end">' + formatTime(endTime) + "</div>" : "")
+			timeHtml = '<div><div class="monthly-list-time-start">' + self.formatTime(startTime) + "</div>"
+				+ (endTime ? '<div class="monthly-list-time-end">' + self.formatTime(endTime) + "</div>" : "")
 				+ "</div>";
 		}
 
